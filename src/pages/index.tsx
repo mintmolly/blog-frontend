@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
 /* Instruments */
-import styles from '../styles/Index.module.css'
+import styles from '../styles/Index.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 

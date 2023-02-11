@@ -2,7 +2,7 @@
 import type { AppProps } from 'next/app'
 
 /* Instruments */
-import '../styles/globals.css'
+import '../styles/index.scss'
 
 const App = (props: AppProps) => {
   const { Component, pageProps } = props;
