@@ -1,6 +1,13 @@
-import '../styles/globals.css'
+/* Core */
 import type { AppProps } from 'next/app'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+/* Instruments */
+import '../styles/globals.css'
+
+const App = (props: AppProps) => {
+  const { Component, pageProps } = props;
+
+  return <Component {...pageProps} />;
+};
+
+export default App;
